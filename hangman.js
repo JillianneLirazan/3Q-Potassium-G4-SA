@@ -32,7 +32,7 @@ function checker(userGuess, idOfLetterGuessed){
 
         stickmanImage++;
 
-        document.getElementById('image').src = "hangman-game-images/images/hangman-" + stickmanImage + ".svg";
+        document.getElementById('image').src = "hangman-" + stickmanImage + ".svg";
 
         document.getElementById("incorrectGuesses").innerHTML = stickmanImage;
     }
